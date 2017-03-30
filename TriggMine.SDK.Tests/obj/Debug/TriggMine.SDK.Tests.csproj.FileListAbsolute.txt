@@ -1,0 +1,12 @@
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\obj\Debug\TriggMine.SDK.Tests.csprojResolveAssemblyReference.cache
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\TriggMine.SDK.Tests.dll.config
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\TriggMine.SDK.Tests.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\TriggMine.SDK.Tests.pdb
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\nunit.framework.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\TriggMine.SDK.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\TriggMine.SDK.pdb
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\nunit.framework.xml
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\obj\Debug\TriggMine.SDK.Tests.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK.Tests\obj\Debug\TriggMine.SDK.Tests.pdb

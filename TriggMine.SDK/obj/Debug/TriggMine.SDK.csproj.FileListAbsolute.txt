@@ -1,0 +1,7 @@
+C:\Projects\TriggMine.SDK\TriggMine.SDK\bin\Debug\TriggMine.SDK.dll.config
+C:\Projects\TriggMine.SDK\TriggMine.SDK\bin\Debug\TriggMine.SDK.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK\bin\Debug\TriggMine.SDK.pdb
+C:\Projects\TriggMine.SDK\TriggMine.SDK\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\TriggMine.SDK\TriggMine.SDK\obj\Debug\TriggMine.SDK.dll
+C:\Projects\TriggMine.SDK\TriggMine.SDK\obj\Debug\TriggMine.SDK.pdb

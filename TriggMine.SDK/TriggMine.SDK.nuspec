@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TriggMine.SDK</id>
+    <version>1.0.0</version>
+    <authors>Denis Osiflyak</authors>
+    <owners>TriggMine</owners>
+    <licenseUrl>https://github.com/TriggMineAdmin/TriggMine-DotNet-SDK/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/TriggMineAdmin/TriggMine-DotNet-SDK</projectUrl>
+    <iconUrl>http://www.triggmine.com/wp-content/themes/triggmine/static/img/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TriggMine .Net SDK</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>SDK for TriggMine API, details: http://www.triggmine.com/</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
