@@ -10,8 +10,26 @@ To install TriggMine.SDK from Visual Studio, run the following command in the [P
 `PM> Install-Package TriggMine.SDK`
 
 ## How-to
+TriggMine API сan take 8 types of events. All events models send through SendEvent method which has static and async versions.
+
+#### Event list with model type 
+**Event type** | **Model** |
+--|--|
+Registration | ProspectEvent |
+Cart | CartEvent |
+History | HistoryEvents |
+Login | LoginEvent |
+Logout | LogoutEvent |
+Navigation | NavigationEvent |
+Order | OrderEvent |
+Diagnostic | PluginDiagnosticEvent |
+
+
 ### Example instance
 ```C#
+using TriggMine.SDK.Events;
+using TriggMine.SDK.Models;
+
 //Instance TriggMine API with your ApiKey and ApiUrl
 //Your ApiKey && ApiUrl > https://client.triggmine.com.ua/login > Settings > Integration 
 var triggmineApi = new TriggmineApi("YOUR API KEY", new Uri("YOUR API URL"));
@@ -29,7 +47,11 @@ var response = triggmineApi.SendEvent(new ProspectEvent()
         })
 ```
 ### Example static
-```
+```C#
+using TriggMine.SDK.Events;
+using TriggMine.SDK.Models;
+
+//Registration model example
 var prospect = new ProspectEvent()
         {
             Id = Guid.NewGuid().ToString(),
@@ -39,7 +61,8 @@ var prospect = new ProspectEvent()
             DeviceId = "4c3d48512d48b2603092b5a45ba74c8c",
             SecondaryDeviceId = "465060737",
             RegistrationDate = DateTime.Now
-        }
-        
+        };
+
+//Your ApiKey && ApiUrl > https://client.triggmine.com.ua/login > Settings > Integration 
 var response = TriggmineApi.SendEvent(prospect, "YOUR API KEY", new Uri("YOUR API URL"));
 ```
