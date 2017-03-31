@@ -2,7 +2,6 @@
 using System.Net;
 using NUnit.Framework;
 using TriggMine.SDK.Events;
-using TriggMine.SDK.Models;
 using static System.Configuration.ConfigurationSettings;
 
 namespace TriggMine.SDK.Tests.Events
