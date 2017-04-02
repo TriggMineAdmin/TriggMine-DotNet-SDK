@@ -4,6 +4,8 @@ TriggMine is an automated email marketing platform, tailored to the eCommerce ne
 
 It takes less than 30 minutes to launch fully automated email campaign! Now marketers can finally watch your email open rates, clicks and sales sky rocket, without hiring tech experts or touching a single line of code!
 
+TriggMine web site: http://www.triggmine.com/
+
 ## NuGet
 To install TriggMine.SDK from Visual Studio, run the following command in the [Package Manager Console](https://docs.microsoft.com/ru-ru/nuget/tools/package-manager-console).
 
@@ -66,3 +68,36 @@ var prospect = new ProspectEvent()
 //Your ApiKey && ApiUrl > https://client.triggmine.com.ua/login > Settings > Integration 
 var response = TriggmineApi.SendEvent(prospect, "YOUR API KEY", new Uri("YOUR API URL"));
 ```
+### Models fields description
+**Field** | **Description**|
+--|--|
+DeviceId|Device hash FingerprintJS*|
+Email|Customer Email|
+FirstName|Customer Name|
+Id|Customer Id*|
+LastName|Customer Last Name|
+OrderId|Order Id|
+OrderStatus|Order status Pending, Paid, Closed|
+PriceTotal|Total amount of order|
+ProductCategories|Item categories|
+ProductDescription|Item description|
+ProductId|Item ID|
+ProductImage|Item full path image|
+ProductName|Item name|
+ProductPrice|Item price|
+ProductQty|Item quantity|
+ProductSku|Item vendor code| 
+ProductTotalVal|Item summary price|
+ProductUrl|Item full path url|
+QtyTotal|Order quantity|
+RegistrationDate|Customer Registration Date|
+SecondaryDeviceId|Device hash ClientJS*|
+UserAgent|User-Agent header. Optional parameter|
+
+Device hash ClientJS*, FingerprintJS*- We recommend to use ClientJS and FingerprintJS library for definition unique hash of client device and software. It's need for identify client without his loging.
+
+Sources
+https://clientjs.org/
+https://valve.github.io/fingerprintjs/
+
+Customer Id* - Uniq Id Customer in your DB. We use Guid for this
